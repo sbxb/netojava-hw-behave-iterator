@@ -12,7 +12,7 @@ public class Randoms implements Iterable<Integer> {
     }
 
     protected int nextInt() {
-        return random.nextInt(minBound, maxBound + 1); // both bounds included
+        return random.nextInt(minBound, maxBound + 1); // make upper bound also included
     }
 
     @Override
